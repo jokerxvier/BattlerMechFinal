@@ -38,7 +38,7 @@
         <isnot>0</isnot>
       </action>
     </event>
-    <event eventtype="4" ename="obj_mech_red">
+    <event eventtype="4" ename="obj_house">
       <action>
         <libid>1</libid>
         <id>203</id>
@@ -68,7 +68,7 @@
         <isnot>0</isnot>
       </action>
     </event>
-    <event eventtype="4" ename="obj_house">
+    <event eventtype="4" ename="obj_mech_red">
       <action>
         <libid>1</libid>
         <id>203</id>
