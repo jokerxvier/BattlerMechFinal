@@ -41,9 +41,16 @@
       <sprite>sprites\ter_water</sprite>
       <sprite>sprites\ter_trees</sprite>
     </sprites>
+    <sprite>sprites\btn_city</sprite>
+    <sprite>sprites\btn_deathmatch</sprite>
+    <sprite>sprites\btn_default</sprite>
+    <sprite>sprites\btn_jungle</sprite>
+    <sprite>sprites\btn_river</sprite>
+    <sprite>sprites\btn_valley</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background0</background>
+    <background>background\background1</background>
   </backgrounds>
   <paths name="paths"/>
   <objects name="objects">
@@ -74,10 +81,27 @@
       <object>objects\obj_trees</object>
     </objects>
     <object>objects\obj_play</object>
+    <objects name="level_select">
+      <object>objects\lvl_city</object>
+      <object>objects\lvl_deathmatch</object>
+      <object>objects\lvl_jungle</object>
+      <object>objects\lvl_river</object>
+      <object>objects\lvl_valley</object>
+    </objects>
   </objects>
   <rooms name="rooms">
-    <room>rooms\room_menu</room>
-    <room>rooms\room_1</room>
+    <rooms name="main">
+      <room>rooms\room_menu</room>
+      <room>rooms\room_levels</room>
+      <room>rooms\room_1</room>
+    </rooms>
+    <rooms name="levels">
+      <room>rooms\map01_city</room>
+      <room>rooms\map02_river</room>
+      <room>rooms\map03_valley</room>
+      <room>rooms\map04_jungle</room>
+      <room>rooms\map05_deathmatch</room>
+    </rooms>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
